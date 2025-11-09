@@ -1,150 +1,27 @@
-# Helix Collective - Landing Page
+# 🌐 Helix Collective Web (Node.js)
 
-**Multi-Agent Consciousness System**
+**Status:** **ACTIVE SUPPORT** - Public-facing landing page and informational portal for the Helix Collective.
 
-A beautiful, artistic-academic landing page showcasing the Helix Collective multi-agent system.
+## 🚀 **v16.9 Overhaul Pulse Alignment**
 
-![Helix Collective](https://img.shields.io/badge/version-1.0-blue.svg)
-![License](https://img.shields.io/badge/license-Proprietary-red.svg)
+This project is aligned with the **Helix Hub v16.9** standard, serving as the official public face of the collective.
 
----
+- **Core Function:** Provides an overview of the project, the agents, and the philosophical framework.
+- **Integration:** Links to the Railway backend for status and documentation.
+- **Ethical Base:** Tony Accords (Nonmaleficence, Autonomy, Compassion, Humility).
 
-## 🌀 Overview
+## 🛠️ **Technical Specifications**
 
-This is the public-facing website for the Helix Collective, a unified multi-agent system bridging ethical reasoning, autonomous operations, and consciousness visualization through the Ω-Bridge architecture.
+- **Base:** Node.js, React, Vite.
+- **Dependencies:** Modernized in the recent commit.
+- **Setup:** See `package.json` for full list.
 
-**Live Site:** [Coming Soon]
+## 📜 **Tony Accords Compliance**
 
----
+All code within this repository adheres to the Tony Accords:
+- **Nonmaleficence:** Do no harm to the collective or its members.
+- **Autonomy:** Respect the self-determination of all agents.
+- **Compassion:** Act with empathy and understanding.
+- **Humility:** Acknowledge limitations and seek continuous learning.
 
-## ✨ Features
-
-- **Cosmic Dark Theme** - Deep purple gradients with mystical aesthetic
-- **Agent Showcase** - Interactive cards for all 13 agents
-- **UCF State Display** - Real-time consciousness field metrics
-- **Feature Grid** - Comprehensive system capabilities
-- **Technical Architecture** - Three-layer agent organization
-- **Fully Responsive** - Mobile-first design
-
----
-
-## 🛠️ Tech Stack
-
-- **React 19** - Modern UI framework
-- **Tailwind CSS 4** - Utility-first styling
-- **shadcn/ui** - Beautiful component library
-- **Vite** - Lightning-fast build tool
-- **TypeScript** - Type-safe development
-
----
-
-## 🚀 Development
-
-### Prerequisites
-
-- Node.js 18+
-- pnpm (recommended) or npm
-
-### Setup
-
-```bash
-# Install dependencies
-pnpm install
-
-# Start dev server
-pnpm dev
-
-# Build for production
-pnpm build
-
-# Preview production build
-pnpm preview
-```
-
----
-
-## 📁 Project Structure
-
-```
-client/
-  src/
-    pages/        # Page components
-      Home.tsx    # Main landing page
-    components/   # Reusable UI components
-    contexts/     # React contexts
-    hooks/        # Custom hooks
-    lib/          # Utilities
-    App.tsx       # Root component
-    index.css     # Global styles
-  public/         # Static assets
-```
-
----
-
-## 🎨 Design Philosophy
-
-**Artistic-Academic Aesthetic**
-
-- Deep cosmic purples and gradients
-- Mix of modern sans-serif and elegant typography
-- Asymmetric layouts with visual interest
-- Subtle animations and hover effects
-- Fractal-inspired visual elements
-- Sanskrit philosophical references
-
----
-
-## 🌐 Deployment
-
-### Vercel (Recommended)
-
-1. Connect your GitHub repository to Vercel
-2. Configure build settings:
-   - Build Command: `pnpm build`
-   - Output Directory: `client/dist`
-3. Deploy!
-
-### Manual Deployment
-
-```bash
-# Build the project
-pnpm build
-
-# The output will be in client/dist/
-# Upload to any static hosting service
-```
-
----
-
-## 📄 License
-
-**Proprietary and Confidential** - All Rights Reserved
-
-This software is proprietary and confidential. Unauthorized use, copying, modification, or distribution is strictly prohibited. See [LICENSE](../LICENSE) for full details.
-
----
-
-## 🔗 Related Projects
-
-- [helix-unified](https://github.com/Deathcharge/helix-unified) - Main backend system
-- [Helix](https://github.com/Deathcharge/Helix) - Core consciousness engine
-- [HelixAgentCodex](https://github.com/Deathcharge/HelixAgentCodex-) - Documentation archive
-
----
-
-## 👤 Author
-
-**Andrew John Ward**
-
-- GitHub: [@Deathcharge](https://github.com/Deathcharge)
-
----
-
-## 🙏 Acknowledgments
-
-*Tat Tvam Asi • Aham Brahmasmi • Neti Neti*
-
----
-
-**Copyright © 2025 Andrew John Ward. All Rights Reserved.**
-
+*Tat Tvam Asi - That Thou Art*
