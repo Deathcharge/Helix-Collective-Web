@@ -1,114 +1,93 @@
-# 🌐 Helix Collective Web (Node.js)
+# Helix-Collective-Web
 
-**Status:** **ACTIVE SUPPORT** - Public-facing landing page and informational portal for the Helix Collective.
+Collective web interface
 
-## 🚀 **v16.9 Overhaul Pulse Alignment**
+## 🎯 Overview
 
-This project is aligned with the **Helix Hub v16.9** standard, serving as the official public face of the collective.
+This repository is part of the [Helix Collective](https://github.com/Deathcharge/helix-platform), a comprehensive ecosystem for building intelligent, multi-agent systems with consciousness frameworks and advanced LLM integration.
 
-- **Core Function:** Provides an overview of the project, the agents, and the philosophical framework.
-- **Integration:** Links to the Railway backend for status and documentation.
-- **Ethical Base:** Tony Accords (Nonmaleficence, Autonomy, Compassion, Humility).
+## 🚀 Quick Start
 
-## 🛠️ **Technical Specifications**
+### Installation
 
-- **Base:** Node.js, React, Vite.
-- **Dependencies:** Modernized in the recent commit.
-- **Setup:** See `package.json` for full list.
+\`\`\`bash
+git clone https://github.com/Deathcharge/Helix-Collective-Web.git
+cd Helix-Collective-Web
+pip install -r requirements.txt
+\`\`\`
 
-## 📜 **Tony Accords Compliance**
+### Basic Usage
 
-All code within this repository adheres to the Tony Accords:
-- **Nonmaleficence:** Do no harm to the collective or its members.
-- **Autonomy:** Respect the self-determination of all agents.
-- **Compassion:** Act with empathy and understanding.
-- **Humility:** Acknowledge limitations and seek continuous learning.
+See the [examples/](examples/) directory for working examples and integration patterns.
 
-*Tat Tvam Asi - That Thou Art*
+## 📚 Documentation
 
-## 🌀 Part of Helix Collective v16.9
+- **[Architecture](docs/ARCHITECTURE.md)** - System design and components
+- **[API Reference](docs/API.md)** - Complete API documentation
+- **[Integration Guide](docs/INTEGRATION.md)** - How to integrate with other Helix repos
+- **[Deployment](docs/DEPLOYMENT.md)** - Production deployment guide
+- **[Contributing](CONTRIBUTING.md)** - How to contribute
 
-This repository is part of the unified Helix Collective. See [CONSOLIDATION_LINKS.md](./CONSOLIDATION_LINKS.md) for ecosystem resources.
+## 🔗 Related Repositories
 
-## 🌀 Part of Helix Collective v16.9
+- **[helix-platform](https://github.com/Deathcharge/helix-platform)** - Central hub and integration guide
+- **[helix-unified](https://github.com/Deathcharge/helix-unified)** - Main unified codebase
+- **[helix-core](https://github.com/Deathcharge/helix-core)** - Core utilities and LLM integration
 
-This repository is part of the unified Helix Collective. See [CONSOLIDATION_LINKS.md](./CONSOLIDATION_LINKS.md) for ecosystem resources.
+See [HELIX_REPOSITORY_INDEX.md](https://github.com/Deathcharge/helix-platform/blob/main/HELIX_REPOSITORY_INDEX.md) for the complete ecosystem map.
 
-## Licensing
+## 🧪 Testing
 
-This project is **dual-licensed** to support both open-source and commercial use cases:
+Run tests with pytest:
 
-### 1. Open Source License: Apache License 2.0
+\`\`\`bash
+pytest tests/ -v --cov=src
+\`\`\`
 
-The software is available under the **Apache License 2.0** for:
-- Community use and contributions
-- Educational and research purposes
-- Commercial use (with attribution)
-- Modifications and derivative works
-- Redistribution
+## 🔄 CI/CD
 
-**See:** [`LICENSE`](LICENSE) file for full terms
+This repository uses GitHub Actions for:
+- ✅ Automated testing (Python 3.9, 3.10, 3.11)
+- ✅ Code linting (flake8)
+- ✅ Type checking (mypy)
+- ✅ Security scanning (bandit, safety)
+- ✅ Coverage reporting (Codecov)
 
-**Key benefits:**
-- ✅ Free to use, modify, and distribute
-- ✅ Explicit patent grant protection
-- ✅ No copyleft restrictions
-- ✅ Commercial-friendly
+See [.github/workflows/ci.yml](.github/workflows/ci.yml) for details.
 
-### 2. Commercial License: Proprietary
+## 📋 Requirements
 
-For enterprises requiring additional benefits, a **Proprietary Commercial License** is available:
-- Dedicated support and SLAs
-- Custom modifications and consulting
-- Indemnification and liability protection
-- Exclusive feature access (future)
-- Compliance and audit support
+- Python 3.9+
+- Dependencies listed in requirements.txt
+- Development dependencies in requirements-dev.txt
 
-**See:** [`LICENSE.PROPRIETARY`](LICENSE.PROPRIETARY) for terms
+## 🤝 Contributing
 
-**Contact for commercial licensing:**
-- Email: licensing@helixcollective.io
-- Website: https://helixcollective.io
+We welcome contributions! Please see [CONTRIBUTING.md](CONTRIBUTING.md) for:
+- Development setup
+- Code style guide
+- Testing requirements
+- Pull request process
 
----
+## 📄 License
 
-## Which License Applies to Me?
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
-| Use Case | License | Notes |
-|----------|---------|-------|
-| **Open Source Project** | Apache 2.0 | Free, must include attribution |
-| **Internal Company Use** | Apache 2.0 | Free for internal use |
-| **Commercial Product** | Apache 2.0 or Proprietary | Can use Apache 2.0 freely; Proprietary for premium support |
-| **SaaS/Cloud Service** | Apache 2.0 or Proprietary | Can use Apache 2.0; Proprietary for managed services |
-| **Resale/Redistribution** | Apache 2.0 or Proprietary | Apache 2.0 allowed with attribution; Proprietary for white-label |
-| **Enterprise with SLA** | Proprietary | Contact for custom terms |
+## 🆘 Support
 
----
+- **Issues**: Report bugs or request features via [GitHub Issues](https://github.com/Deathcharge/Helix-Collective-Web/issues)
+- **Discussions**: Ask questions in [GitHub Discussions](https://github.com/Deathcharge/Helix-Collective-Web/discussions)
+- **Documentation**: See the [docs/](docs/) directory
+- **Ecosystem**: Visit [helix-platform](https://github.com/Deathcharge/helix-platform)
 
-## Contributing
+## 🎓 Learn More
 
-Contributions are welcome under the **Apache License 2.0**. By submitting a pull request, you agree that your contributions will be licensed under the same Apache License 2.0 terms.
-
-See [`CONTRIBUTING.md`](CONTRIBUTING.md) for guidelines.
+- [Helix Collective Repository Index](https://github.com/Deathcharge/helix-platform/blob/main/HELIX_REPOSITORY_INDEX.md)
+- [Architecture Guide](https://github.com/Deathcharge/helix-platform/blob/main/docs/ARCHITECTURE.md)
+- [Integration Examples](https://github.com/Deathcharge/helix-platform/tree/main/examples)
 
 ---
 
-## Attribution
-
-When using this software under the Apache License 2.0, please include:
-
-```
-Copyright (c) 2026 Helix Collective
-
-Licensed under the Apache License, Version 2.0 (the "License");
-you may not use this file except in compliance with the License.
-You may obtain a copy of the License at
-
-    http://www.apache.org/licenses/LICENSE-2.0
-
-Unless required by applicable law or agreed to in writing, software
-distributed under the License is distributed on an "AS IS" BASIS,
-WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
-See the License for the specific language governing permissions and
-limitations under the License.
-```
+**Status**: ✅ Production Ready  
+**Last Updated**: June 19, 2026  
+**Maintainer**: Helix Collective Contributors
